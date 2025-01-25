@@ -7,7 +7,7 @@ FlexiText = typing.Union[str, bytes]
 
 def _markers(pem_marker: FlexiText) -> typing.Tuple[bytes, bytes]:
     """
-    Returns the start and end PEM markers, as bytes.
+    Returns the start and end PEM markers, as bytes.adsfasdf
     """
 
     if not isinstance(pem_marker, bytes):
