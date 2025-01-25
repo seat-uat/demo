@@ -22,6 +22,7 @@ def _pem_lines(contents: bytes, pem_start: bytes, pem_end: bytes) -> typing.Iter
 
     in_pem_part = False
     seen_pem_start = False
+    adfasdf
 
     for line in contents.splitlines():
         line = line.strip()
